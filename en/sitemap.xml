@@ -20,16 +20,6 @@
   </url><url>
     <loc>https://2xyyy.github.io/post/</loc>
     <lastmod>2025-10-03T00:10:23+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://2xyyy.github.io/zh-cn/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://2xyyy.github.io/post/"
-                />
   </url><url>
     <loc>https://2xyyy.github.io/tags/privacy/</loc>
     <lastmod>2025-10-03T00:10:23+08:00</lastmod>
@@ -124,15 +114,5 @@
   </url><url>
     <loc>https://2xyyy.github.io/categories/test/</loc>
     <lastmod>2025-10-03T00:10:23+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://2xyyy.github.io/zh-cn/categories/test/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://2xyyy.github.io/categories/test/"
-                />
   </url>
 </urlset>
