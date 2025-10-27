@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Test on 困了要睡觉-xyyy</title>
-        <link>https://2xyyy.github.io/categories/test/</link>
-        <description>Recent content in Test on 困了要睡觉-xyyy</description>
+        <title>Emoji on 困了要睡觉-xyyy</title>
+        <link>https://2xyyy.github.io/tags/emoji/</link>
+        <description>Recent content in Emoji on 困了要睡觉-xyyy</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <copyright>困了要睡觉-xyyy</copyright><atom:link href="https://2xyyy.github.io/categories/test/index.xml" rel="self" type="application/rss+xml" /><item>
+        <copyright>困了要睡觉-xyyy</copyright>
+        <lastBuildDate>Tue, 28 Oct 2025 01:32:54 +0800</lastBuildDate><atom:link href="https://2xyyy.github.io/tags/emoji/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Emoji Support</title>
         <link>https://2xyyy.github.io/p/emoji-support/</link>
         <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
