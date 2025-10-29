@@ -6,7 +6,16 @@
         <description>Recent content in Categories on 困了要睡觉-xyyy</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <copyright>困了要睡觉-xyyy</copyright><atom:link href="https://2xyyy.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <copyright>困了要睡觉-xyyy</copyright>
+        <lastBuildDate>Wed, 29 Oct 2025 09:59:34 +0800</lastBuildDate><atom:link href="https://2xyyy.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Study</title>
+        <link>https://2xyyy.github.io/categories/study/</link>
+        <pubDate>Tue, 28 Oct 2025 02:12:30 +0800</pubDate>
+        
+        <guid>https://2xyyy.github.io/categories/study/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Test</title>
         <link>https://2xyyy.github.io/categories/test/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
