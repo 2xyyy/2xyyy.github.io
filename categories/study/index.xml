@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>困了要睡觉-xyyy</copyright>
-        <lastBuildDate>Wed, 29 Oct 2025 10:02:27 +0800</lastBuildDate><atom:link href="https://2xyyy.github.io/categories/study/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 29 Oct 2025 10:16:34 +0800</lastBuildDate><atom:link href="https://2xyyy.github.io/categories/study/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Discrete_Mathematics</title>
         <link>https://2xyyy.github.io/p/discrete_mathematics/</link>
         <pubDate>Tue, 28 Oct 2025 02:12:30 +0800</pubDate>
@@ -16,10 +16,64 @@
         <description>&lt;img src="https://2xyyy.github.io/p/discrete_mathematics/back1.jpg" alt="Featured image of post Discrete_Mathematics" /&gt;&lt;h1 id=&#34;离散数学&#34;&gt;离散数学
 &lt;/h1&gt;&lt;h2 id=&#34;关系&#34;&gt;关系
 &lt;/h2&gt;&lt;h3 id=&#34;等价关系&#34;&gt;等价关系
-&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;共同拥有某种性质&lt;/strong&gt;&lt;/p&gt;
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;在我看来，等价关系类似与一些物体共同具有的某种性质&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;定义&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;给定一个集合 A，&lt;br&gt;
+在 A 上的一个关系 R⊆A×A&lt;br&gt;
+称为 &lt;strong&gt;等价关系&lt;/strong&gt;，如果它满足以下三个性质：&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;性质&lt;/th&gt;
+          &lt;th&gt;名字&lt;/th&gt;
+          &lt;th&gt;数学形式&lt;/th&gt;
+          &lt;th&gt;意思&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;①&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;自反性&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;∀a∈A,(a,a)∈R&lt;/td&gt;
+          &lt;td&gt;自己和自己等价&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;②&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;对称性&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;∀a,b∈A,(a,b)∈R⇒(b,a)∈R&lt;/td&gt;
+          &lt;td&gt;如果a等价b，那b也等价a&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;③&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;传递性&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;∀a,b,c∈A,(a,b)∈R∧(b,c)∈R⇒(a,c)∈R&lt;/td&gt;
+          &lt;td&gt;a等价b，b等价c → a也等价c&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 &lt;p&gt;&lt;strong&gt;同余&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在整数集合 &lt;strong&gt;Z&lt;/strong&gt; 上，给定一个正整数 n，&lt;br&gt;
+我们说两个整数 a,b &lt;strong&gt;模 n 同余&lt;/strong&gt;，记作：&lt;/p&gt;
+&lt;p&gt;$a≡b(modn)$&lt;/p&gt;
+&lt;p&gt;意思是：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;n 能整除它们的差，即&lt;/p&gt;
+&lt;p&gt;n∣(a−b)&lt;/p&gt;
+&lt;p&gt;也就是说，a−b=k×n，其中 k 是整数。&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;等价类&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;给定一个集合 A，和一个等价关系 ∼，&lt;br&gt;
+对于集合里的某个元素 a∈A，我们定义它的等价类为：&lt;/p&gt;
+&lt;p&gt;[a]={x∈A∣x∼a}&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;商集&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;当我们在集合 A 上定义了一个&lt;strong&gt;等价关系&lt;/strong&gt; ∼ 之后，&lt;br&gt;
+每个元素 a∈A 都属于某一个&lt;strong&gt;等价类&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;[a]={x∈A∣x∼a}&lt;/p&gt;
+&lt;p&gt;然后，我们把所有这些等价类都“收集”起来，组成一个新的集合：&lt;/p&gt;
+&lt;p&gt;A/∼={[a]∣a∈A}​&lt;/p&gt;
+&lt;p&gt;这个集合 A/∼ 就叫做—— &lt;strong&gt;商集（quotient set）&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;集合的划分&#34;&gt;集合的划分
 &lt;/h3&gt;&lt;p&gt;&lt;strong&gt;定义&lt;/strong&gt;&lt;/p&gt;
