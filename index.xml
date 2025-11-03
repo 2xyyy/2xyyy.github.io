@@ -13,10 +13,16 @@
         
         <guid>https://2xyyy.github.io/p/discrete_mathematics/</guid>
         <description>&lt;img src="https://2xyyy.github.io/p/discrete_mathematics/back1.jpg" alt="Featured image of post Discrete_Mathematics" /&gt;&lt;h1 id=&#34;离散数学&#34;&gt;离散数学
-&lt;/h1&gt;&lt;h2 id=&#34;关系&#34;&gt;关系
-&lt;/h2&gt;&lt;h3 id=&#34;等价关系&#34;&gt;等价关系
-&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;在我看来，等价关系类似与一些物体共同具有的某种性质&lt;/p&gt;
+&lt;/h1&gt;&lt;h2 id=&#34;有序对和笛卡尔积&#34;&gt;有序对和笛卡尔积
+&lt;/h2&gt;&lt;h3 id=&#34;定义-11-有序对由两个元素-a-b按照顺序组成的二元组称为有序对记作-a-b&#34;&gt;定义 1.1 (有序对).由两个元素 a, b，按照顺序组成的二元组称为有序对，记作 ⟨a, b⟩.
+&lt;/h3&gt;&lt;p&gt;有序对的性质：
+• 有序性 $⟨a, b⟩ \neq ⟨b, a⟩ (当a \neq b).$
+•$ ⟨a, b⟩ = ⟨u, v⟩ ⇐⇒ a = u ∧ b = v.$&lt;/p&gt;
+&lt;h4 id=&#34;定义-12-笛卡尔积-设-a-b-为集合a-与-b-的笛卡尔积cartesian-product记作-a--ba--b--a-ba--a--b--b&#34;&gt;定义 1.2 (笛卡尔积). 设 A, B 为集合，A 与 B 的笛卡尔积（Cartesian product）记作 A × B，A × B = {⟨a, b⟩|a ∈ A ∧ b ∈ B}.
+&lt;/h4&gt;&lt;h2 id=&#34;关系&#34;&gt;关系
+&lt;/h2&gt;&lt;h4 id=&#34;等价关系&#34;&gt;等价关系
+&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;在我看来，等价关系类似与一些物体共同具有的某种性质，可以用其进行分类&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;定义&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;给定一个集合 A，&lt;br&gt;
@@ -74,10 +80,19 @@
 &lt;p&gt;A/∼={[a]∣a∈A}​&lt;/p&gt;
 &lt;p&gt;这个集合 A/∼ 就叫做—— &lt;strong&gt;商集（quotient set）&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;集合的划分&#34;&gt;集合的划分
-&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;定义&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&#34;集合的划分&#34;&gt;集合的划分
+&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;定义&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;等价划分&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;等价关系导出&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;其他次序关系&#34;&gt;其他次序关系
+&lt;/h2&gt;&lt;h4 id=&#34;偏序关系&#34;&gt;偏序关系
+&lt;/h4&gt;&lt;h4 id=&#34;拟序关系&#34;&gt;拟序关系
+&lt;/h4&gt;&lt;h4 id=&#34;全系关系&#34;&gt;全系关系
+&lt;/h4&gt;&lt;h4 id=&#34;良序关系&#34;&gt;良序关系
+&lt;/h4&gt;&lt;h4 id=&#34;总结&#34;&gt;总结
+&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;偏序关系&amp;gt;全系关系&amp;gt;良序关系&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
         </item>
         <item>
